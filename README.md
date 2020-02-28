@@ -1,4 +1,4 @@
-# Unsupervised Domain Adaptation for Multi-Task Classification of Low-Resource Crisis-Related Web Data
+# Unsupervised and Interpretable Domain Adaptation to RapidlyFilter Social Web Data for Emergency Services
 
 ## Aims to help emergency responders during Natural Disasters 
 
@@ -6,7 +6,7 @@
 
 ### Why use this method?
 - Unsupervised (no labeled target data is needed)
-- Uses Multi-Task Learning to create a better generalized model for the Low-Resource dataset
+- Uses Multi-Task Learning to create a better generalized model for the Low-Resource Crisis-Related Web Data
 - Interpretable Predictions
 
 ### Requirements
