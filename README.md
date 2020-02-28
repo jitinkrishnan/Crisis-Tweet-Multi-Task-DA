@@ -14,14 +14,15 @@ Python3.6, Keras, Tensorflow.
 Or ```pip install -r requirements.txt``` to install necessary packages.
 
 ### Additional Requirements
-Download fastText [crawl-300d-2M-subword.bin](https://fasttext.cc/docs/en/english-vectors.html) to the current folder. For a smaller fastText word vector file with only words from 2018 TREC task, [Click here](https://drive.google.com/open?id=1dNYCD5vuuGjT-BT-ZMfKYttU1UtUlOQg).
+Download fastText [crawl-300d-2M-subword.bin](https://fasttext.cc/docs/en/english-vectors.html) to the current folder. For a smaller fastText word vector file with only words from 2018 TREC task, [click here](https://drive.google.com/open?id=1dNYCD5vuuGjT-BT-ZMfKYttU1UtUlOQg). If you use the bin file, set ```binary=True``` in ```mtl.py```.
 
 ### TREC Data
-[Click Here](https://github.com/jitinkrishnan/Crisis-Tweet-Multi-Task-DA/blob/master/TREC-MTL-DATASET-CONSTRUCTION.ipynb) to view the Jupyter Notebook that provides detailed instructions to construct the TREC datasets for MTL. We don't directly provide them because the dataset is not ours.
+[Click Here](https://github.com/jitinkrishnan/Crisis-Tweet-Multi-Task-DA/blob/master/TREC-MTL-DATASET-CONSTRUCTION.ipynb) to view the Jupyter Notebook that provides detailed instructions to construct the TREC datasets for MTL. We don't directly provide them because the dataset is not ours. 
 
 ### MTL Sample Runs
-#### BiLSTM
-
+ ```python mtl.py guatemalaEarthquake```
+ This will train a MTL model by combining rest of the crisis events on the 4 tasks and will predict on *guatemalaEarthquake*.
+ Sample Result: ```[69.05, 84.05, 96.76, 93.11]``` representing the acccuracy scores for the 4 tasks. 
 
 ### Visualize Attention
 
