@@ -6,7 +6,7 @@
 
 ### Why use this method?
 - Unsupervised (no labeled target data is needed)
-- Uses Multi-Task Learning to create a better generalized model for the Low-Resource Crisis-Related Web Data (Tweets)
+- Uses Multi-Task Learning to create a better generalizable model for the Low-Resource Crisis-Related Web Data (Tweets)
 - Interpretable Predictions
 
 ### Requirements
@@ -44,7 +44,7 @@ tweet = "rt <@> <number> buff : boston : police and fbi urging anyone with video
 prediction = 1
 attention = [('buff', 0.0254), ('boston', 0.0714), ('police', 0.0928), ('fbi', 0.0732), ('urging', 0.0831), ('anyone', 0.0324), ('with', 0.0359), ('video', 0.023), ('finish', 0.013), ('line', 0.0145), ('time', 0.0187), ('explosion', 0.0384), ('should', 0.0323), ('please', 0.0404), ('come', 0.0306), ('forward', 0.0379)]
 ```
-[Click Here](https://github.com/jitinkrishnan/Crisis-Tweet-Multi-Task-DA/blob/master/visualize_attention.ipynb) to view the Jupyter Notebook that helps visualize the attention weights.
+[Click Here](https://github.com/jitinkrishnan/Crisis-Tweet-Multi-Task-DA/blob/master/visualize_attention.ipynb) to view the Jupyter Notebook that shows the attention heat map.
 
 ### Contact information
 For help or issues, please submit a GitHub issue or contact Jitin Krishnan (`jkrishn2@gmu.edu`).
