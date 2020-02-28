@@ -7,8 +7,9 @@
 ### Paper/Cite
 
 ### Why use this method? (See paper for detailed performance comparison)
-- Unlike most state-of-the-art methods, no unlabeled target data is needed to train the model (which means no gradient reversal or manual pivot extractions). Out-of-the-box adaptable to any domain. 
-- Computationally much cheaper than the state-of-the-art methods which uses unlabeled target data, with no trade-off in performance.
+- Unsupervised (no labeled target data is needed)
+- Use Multi-Task Learning to create a better generalized model for the Low-Resource dataset
+- Interpretable Predictions
 
 ### Requirements
 Python3.6, Keras, Tensorflow.
@@ -18,6 +19,7 @@ Or ```pip install -r requirements.txt``` to install necessary packages.
 Download [crawl-300d-2M-subword.bin](https://fasttext.cc/docs/en/english-vectors.html)
 
 ### TREC Data
+[Click Here](https://github.com/jitinkrishnan/Crisis-Tweet-Multi-Task-DA/blob/master/TREC-MTL-DATASET-CONSTRUCTION.ipynb) to view the Jupyter Notebook that provides detailed instructions to construct the TREC datasets for MTL.
 
 
 ### Sample Runs
