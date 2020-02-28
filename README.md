@@ -14,7 +14,7 @@ Python3.6, Keras, Tensorflow.
 Or ```pip install -r requirements.txt``` to install necessary packages.
 
 ### Additional Requirements
-Download [crawl-300d-2M-subword.bin](https://fasttext.cc/docs/en/english-vectors.html) to the current folder.
+Download fastText [crawl-300d-2M-subword.bin](https://fasttext.cc/docs/en/english-vectors.html) to the current folder.
 
 ### TREC Data
 [Click Here](https://github.com/jitinkrishnan/Crisis-Tweet-Multi-Task-DA/blob/master/TREC-MTL-DATASET-CONSTRUCTION.ipynb) to view the Jupyter Notebook that provides detailed instructions to construct the TREC datasets for MTL. We don't directly provide them because the dataset is not ours.
