@@ -20,12 +20,24 @@ Download fastText [crawl-300d-2M-subword.bin](https://fasttext.cc/docs/en/englis
 [Click Here](https://github.com/jitinkrishnan/Crisis-Tweet-Multi-Task-DA/blob/master/TREC-MTL-DATASET-CONSTRUCTION.ipynb) to view the Jupyter Notebook that provides detailed instructions to construct the TREC datasets for MTL. We don't directly provide them because the dataset is not ours. 
 
 ### MTL: Sample Run
-Run ```python mtl.py guatemalaEarthquake```. This will train a MTL model by combining rest of the crisis events on the 4 tasks and will predict on *guatemalaEarthquake*.
-Sample Result: ```[69.05, 84.05, 96.76, 93.11]``` represents the acccuracy scores for the 4 tasks. 
+Run 
+```
+python mtl.py guatemalaEarthquake
+``` 
+This will train a MTL model by combining rest of the crisis events on the 4 tasks and will predict on *guatemalaEarthquake*.
+Sample Result: 
+```
+[69.05, 84.05, 96.76, 93.11]
+```
+represents the acccuracy scores for the 4 tasks. 
 
 ### Visualize Attention: Sample Run
 Format: ```python vizualize_attention.py <test-crisis> <filename> <task>```.
-Run ```python vizualize_attention.py bostonBombings data/TASKS/priority/bostonBombings/pos priority```. This will train a MTL model by combining rest of the crisis events on the 4 tasks. And then, it outputs the attention weights of the tweets from the given file for the specific task. 
+Run 
+```
+python vizualize_attention.py bostonBombings data/TASKS/priority/bostonBombings/pos priority
+```
+This will train a MTL model by combining rest of the crisis events on the 4 tasks. And then, it outputs the attention weights of the tweets from the given file for the specific task. 
 Sample Result: 
 ```
 tweet = "rt <@> <number> buff : boston : police and fbi urging anyone with video of the finish line at the time of the explosion should please come forward . ."
