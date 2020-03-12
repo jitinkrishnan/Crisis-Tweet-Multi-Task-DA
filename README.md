@@ -2,6 +2,9 @@
 
 ## Aims to help emergency responders during Natural Disasters 
 
+### Paper/Cite
+https://arxiv.org/abs/2003.04991
+
 **Purpose of the model**: Train a classifier using past crisis-events where plenty of data is available and generalize it to a new crisis-event with **zero** data. 
 
 ### Why use this method?
