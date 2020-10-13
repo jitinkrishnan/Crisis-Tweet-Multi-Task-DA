@@ -3,7 +3,15 @@
 ## Aims to help emergency responders during Natural Disasters 
 
 ### Paper/Cite
-https://arxiv.org/abs/2003.04991
+https://arxiv.org/abs/2003.04991 (To appear at [ASONAM 2020](http://asonam.cpsc.ucalgary.ca/2020/))
+```
+@article{krishnanDiversity,
+  title={Unsupervised and Interpretable Domain Adaptationto Rapidly Filter Tweets for Emergency Services},
+  author={Krishnan, Jitin and Purohit, Hemant and Rangwala, Huzefa},
+  journal={In Proceedings of the 2020 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)},
+  year={2020}
+}
+```
 
 **Purpose of the model**: Train a classifier using past crisis-events where plenty of data is available and generalize it to a new crisis-event with **zero** data. 
 
