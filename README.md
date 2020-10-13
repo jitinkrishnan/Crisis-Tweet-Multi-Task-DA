@@ -5,7 +5,7 @@
 ### Paper/Cite
 https://arxiv.org/abs/2003.04991 (To appear at [ASONAM 2020](http://asonam.cpsc.ucalgary.ca/2020/))
 ```
-@article{krishnanDiversity,
+@article{krishnanCrisisTweets,
   title={Unsupervised and Interpretable Domain Adaptationto Rapidly Filter Tweets for Emergency Services},
   author={Krishnan, Jitin and Purohit, Hemant and Rangwala, Huzefa},
   journal={In Proceedings of the 2020 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)},
