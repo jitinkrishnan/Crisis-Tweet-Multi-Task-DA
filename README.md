@@ -3,7 +3,7 @@
 ## Aims to help emergency responders during Natural Disasters 
 
 ### Paper/Cite
-https://arxiv.org/pdf/2003.04991.pdf (To appear at [ASONAM 2020](http://asonam.cpsc.ucalgary.ca/2020/))
+https://arxiv.org/abs/2003.04991 (To appear at [ASONAM 2020](http://asonam.cpsc.ucalgary.ca/2020/))
 ```
 @article{krishnanCrisisTweets,
   title={Unsupervised and Interpretable Domain Adaptationto Rapidly Filter Tweets for Emergency Services},
